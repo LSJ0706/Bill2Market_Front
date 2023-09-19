@@ -1,0 +1,57 @@
+.signUpCard{
+  background-color: #f7f9fc;
+}
+.signup_container {
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+.snsSignup_container {
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+.snsSignUp_Header{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.signUp_Header {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+
+}
+
+/*.authen_Button {*/
+/*  width: 100%;*/
+
+/*}*/
+
+.signUp_Button {
+  width: 100%;
+
+
+
+}
+
+.phoneCertification_Button {
+  width: 100%;
+}
+.idCheck_Button {
+  float: right;
+}
+.nicknameCheck_Button {
+  float: right;
+}
+
+.comment {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+.main_Link {
+  padding-left: 56%;
+}

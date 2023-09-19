@@ -1,0 +1,39 @@
+.login_container {
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+/* 화면 크기 줄일 때도 가운데 유지하도록 전체 틀 가운데 정렬*/
+
+.login_button {
+    width: 100%;
+}
+/* 버튼 화면 수평으로 꽉차게 만듬 */
+
+.homePage_Link{
+    float: right;
+}
+.loginTitle{
+    margin-top: 10%;
+}
+
+.naver_btn{
+
+}
+/* 카카오랑 규격 맞춤 */
+
+.underbar {
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
+    /* 아래 바 중앙 정렬하고 보기 좋게 단어 띄어쓰기 20px로 고정 */
+}
+
+.sns_login{
+    text-align: center;
+}
+.loginCard{
+    background-color: #f7f9fc;
+}
+
+

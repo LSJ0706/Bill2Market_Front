@@ -1,0 +1,25 @@
+.contentWrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.rotate_sh {
+    animation: rotate_sh 4s infinite linear reverse;
+    position: relative;
+    width:50%;
+    display:block;
+    margin:0 auto;
+}
+
+@keyframes rotate_sh {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}

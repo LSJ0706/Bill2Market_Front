@@ -1,0 +1,15 @@
+.body { background: black; font-size: 12px; }
+.h2, p { margin: unset; }
+.allPayWrap{margin-left:30%;}
+.payWrap { display: flex; flex-wrap: wrap; margin-bottom: 50px; width:65%; }
+.payWrap > div:nth-of-type(1) { width: 100%; font-size: 20px; font-weight: 700; margin-bottom:  20px; }
+.payWrap .itemPhoto { width: 25%; display: inline-block; margin-right: 10%; }
+.payWrap .itemPhoto img { width: 100%; }
+.payWrap .content { width: 65%; display:  flex; flex-direction: column; align-self: center; }
+.payWrap .content > p:nth-of-type(1) { font-size: 20px; font-weight: 900; }
+.payWrap .payContent { width: 100%; border-bottom: 1px solid gray; padding: 5% 0; margin-bottom: 20px; }
+.payWrap .payContent > div { display: flex; width: 100%; justify-content: space-between; position: relative; box-sizing: border-box; line-height: 1.4; font-size: 10px;}
+.payWrap .payContent > div:nth-of-type(1) { font-size: 13px !important; line-height: 2; }
+.payWrap .payContent > div:nth-child(n+2) { color: gray; padding-left: 30px; }
+.payWrap .payContent > div:nth-child(n+2):before { content: '└'; position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 20px;}
+.payWrap > p { width: 100%; color: gray; font-size: 13px; }

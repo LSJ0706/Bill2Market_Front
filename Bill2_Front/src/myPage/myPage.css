@@ -1,0 +1,165 @@
+.myPageWrap{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.pageTitle{
+    margin-left: 10%;
+    font-weight: bolder;
+    font-size: large;
+}
+.userCard{
+    background-color: #fcf7f7;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+}
+.user{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+
+}
+.userName{
+    weight : 100%;
+    margin-bottom: 10%;
+    margin-top: 20%;
+}
+.usersNick {
+    weight : 100%;
+    margin-bottom: 10%;
+}
+.userEmail{
+    weight : 100%;
+    margin-bottom: 10%;
+}
+.userPhoneNum {
+    weight : 100%;
+    margin-bottom: 10%;
+}
+
+.nickNameChangeBtn{
+    position: absolute;
+    margin-left: 18%;
+    border : 1px solid black;
+    height : 35px;
+
+}
+.imgBtn{
+    margin-top: 13%;
+    margin-left: 42%;
+    height: 10%;
+    background-color: #EFEFEF;
+    border : 1px solid black;
+}
+.imgOkBtn{
+    margin-left: 18%;
+    height: 10%;
+    background-color: #EFEFEF;
+    border : 1px solid black;
+}
+.userPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgb(4 0 0 / 3%) 0px 5px 10px 0px;
+}
+.userContent{
+    font-size: 18px;
+    position: absolute;
+    margin-left: 40%;
+}
+
+.tab {
+
+    padding-left: 0px;
+    font-weight: bold;
+    list-style: none;
+    width:100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.tabTitle1 {
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-top: 1px solid #d9d4d4;
+    border-left: 1px solid #d9d4d4;
+    border-right: 1px solid #d9d4d4;
+    border-bottom: 1px solid #d9d4d4;
+    color: rgb(33, 33, 33);
+}
+
+.tabTitle1_Active {
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-top: 1px solid #d9d4d4;
+    border-left: 1px solid #d9d4d4;
+    border-right: 1px solid #d9d4d4;
+    border-bottom: 1px solid #d9d4d4;
+    background-color: #f8b6b6;
+    color: rgb(33, 33, 33);
+}
+
+.tabTitle {
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-top: 1px solid #d9d4d4;
+    border-right: 1px solid #d9d4d4;
+    border-bottom: 1px solid #d9d4d4;
+    color: rgb(33, 33, 33);
+}
+
+.tabTitle_Active {
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-top: 1px solid #d9d4d4;
+    border-right: 1px solid #d9d4d4;
+    border-bottom: 1px solid #d9d4d4;
+    background-color: #f8b6b6;
+    color: rgb(33, 33, 33);
+}
+
+.tabCont{
+    margin: auto;
+    width: 100%;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    text-align: left;
+    color: rgb(33, 33, 33);
+    letter-spacing: -0.5px;
+}
+.tabContDetail{
+    font-size: 18px;
+    padding: 50px 0px 20px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}

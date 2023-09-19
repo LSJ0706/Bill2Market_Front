@@ -1,0 +1,40 @@
+.row{
+    margin-left: 15px;
+}
+.row >.col{
+    display: flex;
+    flaot : left;
+
+
+}
+.cards{
+    margin-top: 15px;
+    width : 320px;
+    height: 550px;
+
+}
+.rental{
+   background-color: yellow;
+    width: 44px;
+}
+.reservation{
+    background-color: red;
+    width: 44px;
+}
+.phoneImage{
+    width: 200px;
+    height: 200px;
+}
+.title{
+    width:70px;
+    padding:0 5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.moreButton{
+    margin-top : 2%;
+
+}
+
+

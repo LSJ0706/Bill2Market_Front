@@ -1,0 +1,52 @@
+.search_box {
+    /* 검색창 */
+    width: 520px;
+    height: 50px;
+    border: 2px solid #b9c0c4;
+    display: flex;
+    align-items: center;
+}
+.search_box input {
+    /* 검색하는 곳 */
+    flex: 9; /* search-box내부에서 9만큼의 크기를 차지(비율) */
+    height: 46px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.search_box button {
+    /* 검색버튼 */
+    flex: 1; /* search-box내부에서 1만큼의 크기를 차지(비율) */
+    height: 49px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border: 2px solid #b9c0c4;
+    color: #000000;
+    background-color: #b9c0c4;
+}
+fieldset {
+    border: none; /* 기본 border 없애기 */
+}
+.visually-hidden {
+    /* 검색창에서 legend 안보이게 설정. */
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+.searchInput::placeholder {
+    color: #d0cfcf;
+    font-weight: lighter;
+}
+.searchBox:hover{
+    color: #000000;
+    background-color: #b9c0c4;
+    border-color: #b9c0c4;;
+}

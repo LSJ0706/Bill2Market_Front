@@ -1,0 +1,49 @@
+.row{
+    margin-left: 15px;
+}
+.row >.col{
+    display: flex;
+    flaot : left;
+
+
+}
+.cards{
+    margin-top: 15px;
+    width : 320px;
+    height: 550px;
+
+}
+.apply{
+    background-color: skyblue;
+    width: 55px;
+}
+.rental{
+    background-color: yellow;
+    width: 44px;
+}
+.expire{
+    background-color: red;
+    width: 85px;
+}
+.done{
+    background-color: gray;
+    width: 55px;
+}
+
+
+.phoneImage{
+    width: 200px;
+    height: 200px;
+}
+.title{
+    width:70px;
+    padding:0 5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.moreButton{
+    margin-top : 5%;
+    margin-left: 2%;
+}
+

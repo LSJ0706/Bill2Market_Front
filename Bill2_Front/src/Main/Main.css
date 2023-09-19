@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  margin: auto; /* header의 양쪽 여백(margin)을 동등하게 맞춤 -> 수평가운데정렬 */
+  width: 1080px;
+  height: 215px;
+  display: flex;
+  align-items: center; /* 하위 요소들 수직 가운데정렬 */
+  position: relative;
+}
+h3{
+  margin: 20px;
+}
+
+main {
+  background: #f2f4f7;
+  min-height: 700px;
+}

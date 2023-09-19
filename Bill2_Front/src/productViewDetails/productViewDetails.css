@@ -1,0 +1,124 @@
+.productViewDetailsPage_container {
+    /*//수정부분*/
+    width : 60%;
+    /**/
+    align-items: center;
+    min-height: 100vh;
+    margin: auto;
+}
+.productViewDetails_Header {
+    justify-content: center;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.productPicture {
+    padding-top: 5%;
+
+}
+.productBasketButton {
+    float: bottom;
+
+}
+
+.chattingButton{
+    float: bottom;
+}
+
+
+.productView {
+    float: right;
+}
+.productBasketCard {
+    float: right;
+    bottom: 100px;
+
+
+}
+.chattingButton {
+    justify-content: center;
+    display: flex;
+    left: 45px;
+    margin-top: 10px;
+}
+.userReviewModal {
+    justify-content: center;
+    display: flex;
+    left: 45px;
+    margin-top: 10px;
+}
+
+/*//수정부분*/
+.userProductModal{
+    justify-content: center;
+    display: flex;
+    left: 45px;
+    margin-top: 10px;
+}
+/*//*/
+.ownerTrustPoint {
+    justify-content: center;
+    display: flex;
+}
+.ImageGroup {
+    justify-content: center;
+    display: flex;
+    /*//수정부분*/
+    width: 60vw;
+    height: 80vh;
+    /*//*/
+
+}
+/*//수정부분*/
+.productImage{
+    justify-content: center;
+    display: flex;
+    width : 100%;
+    height : 200px;
+    margin-bottom: 20px;
+}
+/*//*/
+
+.reviewCard {
+    margin-top: 10px;
+}
+.reviewCardChild {
+    margin-top: 10px;
+}
+
+.heartOutButton {
+    cursor:pointer;
+    transition: transform 300ms ease;
+    font-size: 30px;
+}
+.heartOutButton:hover {
+    transform: scale(1.2);
+}
+.heartFilledButton {
+    cursor:pointer;
+    transition: transform 300ms ease;
+    font-size: 30px;
+}
+.heartFilledButton:hover {
+    transform: scale(1.2);
+}
+.rate {
+    margin-bottom: 20px;
+}
+.reviewModalContent {
+    margin-bottom: 40px;
+    max-width: 430px;
+}
+.reviewCardContent{
+    margin-bottom: 40px;
+    width:950px;
+    word-break: break-all;
+}
+/*//수정부분*/
+.createDate {
+    margin-top: 40px;
+}
+/*//*/
+

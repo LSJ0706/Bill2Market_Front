@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    margin: auto; /* header의 양쪽 여백(margin)을 동등하게 맞춤 -> 수평가운데정렬 */
+    width: 1080px;
+    height: 215px;
+    display: flex;
+    align-items: center; /* 하위 요소들 수직 가운데정렬 */
+    position: relative;
+}
+h3{
+    margin: 20px;
+}
+
+main {
+    background: #f2f4f7;
+    min-height: 700px;
+}
+.row{
+    margin-left: 15px;
+}
+.row >.col{
+    display: flex;
+    flaot : left;
+
+
+}
+.cards{
+    margin-top: 15px;
+    width : 320px;
+    height: 550px;
+
+}
+.rental{
+    background-color: yellow;
+    width: 44px;
+}
+.reservation{
+    background-color: red;
+    width: 44px;
+}
+.phoneImage{
+    width: 200px;
+    height: 200px;
+}
+.title{
+    width:70px;
+    padding:0 5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.itemSort {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+.distance::after{
+
+    margin-right: 4px;
+}
+
+.recent::after{
+
+    margin-right: 4px;
+}
+
+.lowPrice::after{
+    margin-right: 4px;
+}
+.itemSearch {
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.itemSearchResult {
+    margin-left: 15px;
+}
+.addButton {
+    justify: center;
+}

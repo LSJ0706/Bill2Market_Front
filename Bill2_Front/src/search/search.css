@@ -1,0 +1,17 @@
+.itemSearch {
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.itemSearchResult {
+    margin-left: 15px;
+}
+.itemSort {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}

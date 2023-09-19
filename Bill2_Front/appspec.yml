@@ -1,0 +1,24 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /deploy/frontend
+    overwrite: yes
+    
+permissions:
+  - object: /deploy
+    owner: root
+    group: root
+    mode: 777
+    
+  - object: /var/www/html
+    owner: root
+    group: root
+    mode: 777
+    
+hooks:
+  AfterInstall:
+    - location: /deploy_scripts/after_install.sh
+      timeout: 20000
+      runas: root

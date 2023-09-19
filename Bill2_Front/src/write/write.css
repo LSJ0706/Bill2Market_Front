@@ -1,0 +1,57 @@
+
+.write_container {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: #f7f9fc;
+
+}
+.divider{
+    width: 30%;
+}
+.write_money{
+    min-width: 170px;
+    width: 30%;
+}
+
+.write_wrap{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.h1{
+    padding-left: 10%;
+    margin-bottom: 10%;
+}
+.write_wrap span{
+    min-width: 110px;
+    width: 10%;
+}
+.title{
+    justify-content: center;
+    min-width: 300px;
+    width: 30%;
+}
+.content{
+    min-width: 300px;
+    width: 30%;
+}
+.button{
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+.ant-upload-list-picture .ant-upload-list-item{
+    width: 300px;
+}
+
+
+header {
+    margin: auto;
+    width: 1080px;
+    height: 215px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
